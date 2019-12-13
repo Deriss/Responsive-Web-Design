@@ -1,0 +1,39 @@
+#main {
+  background: linear-gradient(90deg,  #AED6F1, #E8F8F5);
+}
+#title {
+  text-align: center;
+  font-size: 3vw;
+  
+ }
+#image {
+  max-width:80%;
+  display:block;
+  height:auto;
+  margin: auto;
+  width: 50%;
+  border: ridge #AED6F1;
+  border-radius:30%;
+  }
+#img-caption {
+  margin:auto;
+  text-align:center;
+}
+#tribute-info {
+  width: 70%;
+  position: relative;
+  margin: auto;
+}
+.par-text {
+  text-indent: 3em;
+  text-align:justify;
+  font-size: 1.3em;
+  line-height: 1.8em;
+}
+@media (max-width:200px){
+  .par-text {
+  text-align:justify;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+}
