@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="trib_style.css">
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="out">
+</figure><h1 id="title">
+ Hogwart's Houses survey
+</h1>
+<figure ><img id="logo" src="https://vignette.wikia.nocookie.net/harrypotter/images/a/ae/Hogwartscrest.png/revision/latest?cb=20110806202805" width="15%" alt="Hogwart's Logo" >
+<p id="description">
+<strong>This survey was created for everyone to see which Hogwarts' House would have more students.</strong>
+</p>
+<form id="survey-form">
+    <div class="inputdiv">
+    <label id="name-label" for="name" class="label"> Enter your name: </label> <input type="text" id="name" placeholder="Enter your name" class="text-input" required></div>
+  <div class="inputdiv">
+    <label id="email-label" for="email" class="label">Enter your E-mail: </label><input type="email" id="email" placeholder="Enter your email" class="text-input" required> </div>
+    <div class="inputdiv">
+    <label id="number-label" for="age" class="label">Enter your age:</label> <input type="number" id="number" placeholder="Age" min=0 max=120 class="text-input" required> </div>
+   <div>
+    <label id="dropdown-list" for ="dropdown-list" class="label"> Which house would you choose?: </label><input list="dropdown">  
+    <datalist id="dropdown">
+      <option value="Gryffindor">
+      <option value="Hufflepuff">
+      <option value="Slytherin">
+      <option value="Ravenclaw">
+     </datalist></div><br>
+       <div>
+    <fieldset class="fieldset">
+        <legend> Which houses would you accept entering to?</legend>
+        <label><input type="checkbox" value="1">Gryffindor</label><br>
+        <label><input type="checkbox" value="2">Hufflepuff</label><br>
+        <label><input type="checkbox" value="3">Slytherin</label><br>
+        <label><input type="checkbox" value="4">Ravenclaw</label><br>
+    </fieldset></div><br>
+    <div>
+    <fieldset class="fieldset">
+        <legend> Which house wouldn't you choose at all? </legend>
+        <input id="1" type="radio" name="r" value="1"> <label for="1">Gryffindor</label><br>
+        <input id="2" type="radio" name="r" value="2"> <label for="2">Hufflepuff</label><br>
+        <input id="3" type="radio" name="r" value="3"> <label for="3">Slytherin</label><br>
+        <input id="4" type="radio" name="r" value="4"> <label for="4">Ravenclaw</label><br>
+      </fieldset></div>
+  <br>
+    <div>
+    <label class="label"> Why should you be accepted in Hogwart's? </label></div><br>
+     <div>
+       <textarea id="textarea" rows="5" cols="40"></textarea>
+     </div><br>
+    <input id="submit" type="submit" value="Submit">
+</form>
+  </div>
+ </body>
