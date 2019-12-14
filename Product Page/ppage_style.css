@@ -1,0 +1,103 @@
+#header {
+  display:block; 
+  margin: 3vw 0% 0% 0%;
+}
+#header-img{
+  
+  width:20%;
+  margin: 0 40% 0 40%;
+}
+#nav-bar {
+  position:fixed;
+  top: 0px;
+  background-color:  #5e2b02;
+  width:100%;
+  margin: 0 0 0 0;
+  padding: .5vw 0 .5vw 0;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.nav-link {
+  text-decoration:none;
+  color: #edab05;
+  font-size:2vw;
+}
+
+#outer{
+  background-color: chocolate;
+}
+#h1 {
+  text-align:center;
+  font-family:"Pacifico";
+  font-size:3vw;
+}
+.p {
+  margin: 0 10% 0 10%;
+  text-align:justify;  
+  font-family: "Times News Roman";
+  line-height: 2em;
+  color:#3b1a01;
+  text-indent:2em;
+}
+#video {
+  z-index:-1;
+  position:relative;
+}
+@media (min-width: 400px){
+  #video {
+  width:50%;
+  margin: 0px 25% 0px 25%;
+  }
+  .label {
+    font-size:2.5vw;
+  }
+  #header-img{
+  width:20%;
+  margin: 0 40% 0 40%;
+}
+}
+@media (max-width: 400px) {
+  #video {
+    width:90%;
+    margin: 0px 5% 0px 5%;
+  }
+  .label {
+    font-size: 3vw;
+  }
+   #header-img{
+  width:60%;
+  margin: 0 20% 0 20%;
+}
+}
+#form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#email-submit{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
+#label-div {
+  margin: 0 22% 0 22%;
+}
+.label {
+  display:block;
+  font-family: "Pacifico", cursive;
+  text-align:center;
+  }
+#submit {
+  border: 0;
+  border-radius:10%;
+  background-color: #5e2b02;
+  color: #edab05;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5vw;
+}
+#email {
+  height:2vw;
+  font-size:1.4vw;
+}
