@@ -1,0 +1,118 @@
+#body{
+  background-image:linear-gradient(to bottom left, gray, rgb(10,10,10));
+  color:white;
+}
+#welcome-section h1{
+  margin:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:center;
+}
+@media (max-width:400px){
+  #welcome-section{
+  height:100vh;
+  font-size:2vw;
+background:url("https://almacenesfreigenedo.com/image/cache/data/Primavera2019/Brocado/BlocadoMabelNegro-1300x867.jpg") no-repeat;
+  color: white;
+  position:relative;
+}
+.project-tile{
+    max-width:90%;
+  }  
+}
+@media (min-width:400px){
+  #welcome-section{
+  height:100vh;
+  font-size:7vh;
+background:url("https://almacenesfreigenedo.com/image/cache/data/Primavera2019/Brocado/BlocadoMabelNegro-1300x867.jpg") no-repeat;
+  color: white;
+  
+}     
+  .project-tile{
+    max-width:45%;
+  }
+}
+#navbar {
+  position:fixed;
+  background-image:linear-gradient(to bottom left, rgb(140,140,240),rgb(90,90,126));
+  top:0px;
+  display:flex;
+  flex-align:center;
+  justify-content: space-around;
+  padding:2vh 2vw 2vh 2vw;
+  width:100%;
+  font-size:1.5em;
+  text-decoration:none;
+  z-index:2;
+}
+.navlink{
+  text-decoration:none;
+  color:black;
+}
+.navlink:hover {
+  font-size:1.1em;
+  text-shadow: 1px 1px gold;
+}
+#projects{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  font-size:1.5em;
+  text-align:center;
+}
+.project-type-fieldset {
+  font-size:0.8em;
+  border-color:gold;
+}
+.project-type-fieldset legend{
+  font-size:1.3em;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projects-div{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  
+
+}
+.project-tile{
+  border: 2px ridge gold;
+  border-radius:10%;
+  margin: 2% 2% 2% 2%;
+  padding: .5% 0 .5% 0;
+}
+
+.project-tag {
+  text-decoration:none;
+  color:white;
+ }
+#about-me{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border: 2px ridge gold;
+  font-size:1.5em;
+  padding: .5% 0 2% 0;
+}
+#image-div{
+  display:flex;
+  align-items:center;
+  align-content:space-around;
+  
+}
+#about-me-picture{
+  
+  border-radius:50%;
+  border: 1px ridge white;
+  margin: 0 5% 2% 20%;
+}
+#about-me-text{
+  margin: 0 10% 0 0;
+}
+.profile-link{
+ color:blue;
+}
