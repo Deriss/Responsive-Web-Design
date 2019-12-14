@@ -1,0 +1,56 @@
+#out {
+  background-color: rgb(200,240,256);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpVi-x5ChRVUBD48PiHxbLYEaUjIT8hsWbNOpwoQkmZcT0YHEJ3w");
+  padding-bottom: 10vh;
+    
+}
+#title {
+  text-align: center;
+  font-size: 4vw;  
+  text-shadow: .2vw .2vw gold;
+}
+#logo {
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+}
+#description {
+  text-align:center;
+  font-size: 1.5vw;
+  text-shadow: .1vw .1vw gold;
+}
+#survey-form {
+  background-color: rgb(230,230,250);
+  position: relative;
+  margin: 0 10vw 0 10vw;
+  padding-left: 3vw;
+  padding-top:2vw;
+  padding-right: 5vw;
+  padding-bottom: 2vw;
+  border: 4px double gold;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.label {
+  align-self: center;
+  font-size: 1.5vw;
+}
+.fieldset {
+  border:2px solid gold;
+  
+}
+.inputdiv {
+  margin: 3vh;
+}
+.text-input {
+  align-self: center;
+}
+#textarea {
+  width:35vw;
+  border-color:gold;
+}
+#submit{
+  border: 2px solid gold;
+  background-color: gold;
+}
