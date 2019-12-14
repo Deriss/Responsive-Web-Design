@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="documentation_style.css">
+</head>
+
+<body id="body">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> // freeCodeCamp Grading Tool
+
+<nav id="navbar">
+  <header><h1>CSS Flexbox Documentation<h1></header>
+  <a href="#Introduction_to_Flexbox" class="nav-link"> Introduction to Flexbox</a>
+  <a href="#Flex-direction" class="nav-link" >Flex-direction</a>
+  <a href="#Flex-wrap" class="nav-link"> Flex-wrap</a>
+  <a href="#Flex-flow" class="nav-link"> Flex-flow</a>
+  <a href="#Justify_Content" class="nav-link" >Justify Content</a>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction_to_Flexbox">
+    <header><h2>Introduction to Flexbox </h2></header>
+    <p class="p">The CSS flexbox allows the design of a flexible responsive layout structure in a simple way. </p>
+    <p "p">To start using flexbox, the first step is to define a flex container. This is the principal element that contains the different elements that will be rearranged responsively. To do this, simply set the property <code class="code"> display:flex;</code> in CSS for the container.</p>
+    <ul>
+      <li><a href="#Flex-direction">Flex-direction</a></li>
+      <li><a href="#Flex-wrap">Flex-wrap</a></li>
+      <li><a href="#Flex-flow">Flex-flow</a></li>
+      <li><a href="#Justify_Content">Justify Content</a></li>
+    </ul>
+    </section>
+  <section class="main-section" id="Flex-direction">
+    <header><h1>Flex-direction</h1></header>
+    <p>The <code class="code">flex-direction</code> property defines if the elements would be stack in a row or in a column. The elements are stacked in a row as default.</p>
+    <ul>
+      <li><code class="code">flex-direction:row;</code></li>
+      <li><code class="code">flex-direction:column;</code></li>
+    </ul>
+    </section>
+  <section class="main-section" id="Flex-wrap">
+    <header><h1>Flex-wrap</h1></header>
+    <p>The <code class="code">flex-wrap</code> property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.</p>
+    <p>The following values are accepted:</p>
+    <ul>
+      <li><code class="code">flex-wrap:nowrap;</code> the flex items are laid out in a single line which may cause the flex container to overflow.</li>
+      <li><code class="code">flex-wrap:wrap;</code> the flex items break into multiple lines.</li>
+      <li><code class="code">flex-wrap:wrap-reverse;</code> behaves the same as wrap but the elements are disposed in the opposite order.</li>
+    </ul>
+    
+    </section>
+  <section class="main-section" id="Flex-flow">
+    <header><h1>Flex-flow</h1></header>
+    <p>The <code class="code">flex-flow</code> CSS property is a shorthand property for flex-direction and flex-wrap properties.</p>
+    <p>For example: <code class="code">flex-flow:row nowrap;</code></p>
+    <p>See <a href="#Flex-direction">flex-direction</a> and <a href="#Flex-wrap">flex-wrap</a> for details on the values.</p>
+    
+    </section>
+  <section class="main-section" id="Justify_Content">
+    <header><h1>Justify Content</h1></header>
+    <p>The <code class="code">justify-content</code> property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).</p>
+    <p>The values that this property can have are:</p>
+    <ul>
+      <li><code class="code">justify-content:flex-start;</code> default value. Items are positioned at the beginning of the container.</li>
+      <li><code class="code">justify-content:flex-end;</code> items are positioned at the end of the container.</li>
+      <li><code class="code">justify-content:center;</code> items are positioned at the center of the container.</li> 
+      <li><code class="code">justify-content:space-around;</code>items are positioned with space before, between, and after the lines.</li>
+      <li><code class="code">justify-content:space-between;</code> items are positioned with space between the lines.</li>
+      <li><code class="code">justify-content:initial;</code> sets this property to its default value.</li>
+      <li><code class="code">justify-content:inherit;</code> inherits this property from its parent element.</li>
+    </ul>  
+    <code></code>
+    </section>
+  
+</main>
+</body>
